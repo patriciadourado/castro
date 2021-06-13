@@ -6,13 +6,15 @@ function NavCastro({ open }){
   const [colorChange, setColorchange] = useState(false);
   
   window.onscroll = () => {
-  if (((document.body.scrollTop > 701) && (window.scrollY < 1355) ) || ((document.documentElement.scrollTop > 701) && (window.scrollY < 1355))){
-    setColorchange(true);
-  } else {
-    setColorchange(false);
-  }
+    if (((document.body.scrollTop > 701) && (window.scrollY < 1355) ) || ((document.documentElement.scrollTop > 701) && (window.scrollY < 1355))){
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
 
-}
+    if (((document.body.scrollTop > 2040) && (window.scrollY < 2840)) || ((document.documentElement.scrollTop > 2040) && (window.scrollY < 2840)))
+      setColorchange(true);
+  }
   return(
     colorChange ?
       <NavBar open={open}>   
