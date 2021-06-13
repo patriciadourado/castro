@@ -7,6 +7,7 @@ import HeaderOpen from './components/Header';
 import Trailer from './pages/Trailer';
 import About from './pages/About';
 import Services from './pages/Services';
+import Informations from './pages/Informations';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Trailer />
     <About />
     <Services />
+    <Informations />
   </React.StrictMode>,
   document.getElementById('root')
 );
