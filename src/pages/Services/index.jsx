@@ -19,7 +19,6 @@ function Services(){
                     <Container>
                         <Front img={bid}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Consultoria</Span>
                             </Inner>
                         </Front>
@@ -36,7 +35,6 @@ function Services(){
                     <Container>
                         <Front img={justice}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Assessoria Jurídica</Span>
                             </Inner>
                         </Front>
@@ -53,7 +51,6 @@ function Services(){
                     <Container>
                         <Front img={law}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Representação em licitações</Span>
                             </Inner>
                         </Front>
@@ -68,7 +65,6 @@ function Services(){
                     <Container>
                         <Front img={planning}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Gestão de contratos</Span>
                             </Inner>
                         </Front>
@@ -83,7 +79,6 @@ function Services(){
                     <Container>
                         <Front img={contract}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Capacitações</Span>
                             </Inner>
                         </Front>
@@ -113,8 +108,6 @@ function Services(){
                     <Container>
                         <Front img={focus}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
-                                {/* <Span>Análise detalhada do Edital</Span> */}
                                 <Span>Análise do Edital</Span>
                             </Inner>
                         </Front>
@@ -129,7 +122,6 @@ function Services(){
                     <Container>
                         <Front img={meeting}>
                             <Inner>
-                                {/* <Paragraph>Info</Paragraph> */}
                                 <Span>Elaboração de Propostas</Span>
                             </Inner>
                         </Front>
