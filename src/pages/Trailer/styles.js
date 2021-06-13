@@ -64,9 +64,30 @@ export const bounce = keyframes`
   }
 `;
 
+export const DownArrow = styled.div`
+	position: fixed;
+	bottom: 40%;
+	left: 50%;
+
+  @media(max-width: 887px){
+    bottom: 20%;
+  }
+`;
+
 export const Bounce = styled.div`
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
   height:100vh;
   animation: ${bounce} 3s infinite;
+`;
+
+export const Arrow = styled.img`
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  
+  @media(max-width: 887px){
+    width: 20px;
+    height: 20px;
+  } 
 `;
