@@ -1,5 +1,5 @@
 import React from 'react';
-import {WrapperType, Line, Bounce } from './styles';
+import { WrapperType, Line, Bounce } from './styles';
 
 function Trailer(){
   

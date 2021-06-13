@@ -5,6 +5,7 @@ import Reset from "./styles/Reset";
 
 import HeaderOpen from './components/Header';
 import Trailer from './pages/Trailer';
+import About from './pages/About';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
 
     <HeaderOpen />
     <Trailer />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
