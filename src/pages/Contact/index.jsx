@@ -2,6 +2,7 @@ import React from 'react';
 import { ContactContainer, ContactIntro, ContactWrapper, Intro, ContactLabel, ContactTitle, ContactP, ContactInfo, Info } from './styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../../components/Footer';
 
 function Contact(){
   return(
@@ -34,6 +35,7 @@ function Contact(){
           </ContactInfo>
         </ContactWrapper>
       </ContactContainer>
+      <Footer />
     </>
   );
 }
