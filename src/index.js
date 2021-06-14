@@ -8,6 +8,7 @@ import Trailer from './pages/Trailer';
 import About from './pages/About';
 import Services from './pages/Services';
 import Informations from './pages/Informations';
+import Contact from './pages/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <About />
     <Services />
     <Informations />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
