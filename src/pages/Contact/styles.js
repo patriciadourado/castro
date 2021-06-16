@@ -15,7 +15,7 @@ export const ContactContainer = styled.section`
 
 export const ContactWrapper = styled.div`
   background: var(--color-contact);
-  width: 100%;
+  width: 49%;
   float: right;
   border-radius: 5px;
   align-items: center;
@@ -137,5 +137,69 @@ export const Info = styled.div`
   @media(max-width: 887px){
     padding-bottom: 20rem;
     width: 100%;
+  }
+`;
+
+export const ContactForm = styled.form`
+  display: block;
+  width: 49%;
+  border-radius: 5px;
+  background-color: var(--color-contact);
+  padding: 20px;
+  height: 50vh;
+  
+  @media(max-width: 887px){
+    width: 100%;
+  }
+`;
+
+export const ContactInput = styled.input`
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical; 
+  
+  &::placeholder{
+    text-align: left;
+    font-family: 'Cinzel', serif;
+  }
+`;
+
+export const ContactMessage = styled.textarea`
+  height: 100rem;
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+
+  &::placeholder{
+    font-family: 'Cinzel', serif;
+  }
+`;
+
+export const ContactSubmit = styled.button`
+  background-color: var(--color-gold);
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10rem;
+  font-family: 'Cinzel', serif;
+
+  @-moz-document url-prefix() {
+    font-weight: lighter;
+  }
+
+  &:hover{
+    background-color: var(--color-gold-two);
   }
 `;
