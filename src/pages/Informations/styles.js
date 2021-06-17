@@ -114,7 +114,7 @@ export const Card = styled.div`
         }
     }
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 887px) {
 		grid-area: auto;
 		text-align: left;
 		
@@ -135,7 +135,7 @@ export const Card = styled.div`
         &:not(:empty):focus {
             background: var(--color-yellow);
         }    
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 887px) {
             /* grid-area: 1 / 1 / 2 / 3; */
             grid-area: 3 / 1 / 4 / 3;
         }
@@ -230,7 +230,7 @@ export const Grid = styled.div`
 
     padding-top: 2vh;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 887px){
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(6, minmax(auto, 300px));
 		overflow-y: scroll;
