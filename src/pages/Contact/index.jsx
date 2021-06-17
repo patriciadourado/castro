@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
 import { ContactContainer, ContactForm, ContactInput, ContactMessage, ContactSubmit, ContactIntro, ContactWrapper, Intro, ContactLabel, ContactTitle, ContactP, ContactInfo, Info } from './styles';
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer'
+import { FooterRow, FooterSocial, FooterItem } from "../../components/Footer/styles.js";
+import LinkCastro from "../../components/LinkCastro";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarker, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
+import {
+  faInstagram,
+  faFacebook,
+  faWhatsapp
+} from '@fortawesome/free-brands-svg-icons';
 
 function Contact(){
   const [nome, setNome] = useState('');
@@ -104,6 +111,37 @@ function Contact(){
               <ContactP>(+55) 71 99910-7423</ContactP>
             </Info>
           </ContactInfo>
+          <FooterRow>
+            <FooterSocial>
+              <FooterItem>
+                <LinkCastro
+                  href="https://jcastro.adv.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-facebook' icon={faFacebook}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
+                  href="https://instagram.com/jcastroconsultoriaa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-instagram' icon={faInstagram}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
+                  href="https://whats.link/7199107423"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-whatsapp' icon={faWhatsapp}/>
+                </LinkCastro>
+              </FooterItem>
+            </FooterSocial>
+          </FooterRow>
         </ContactWrapper>
       </ContactContainer>
       <Footer />
