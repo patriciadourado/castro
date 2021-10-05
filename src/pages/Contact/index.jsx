@@ -128,7 +128,7 @@ function Contact(){
               </FooterItem>
               <FooterItem>
                 <LinkCastro
-                  href="https://instagram.com/jcastroconsultoriaa"
+                  href="https://instagram.com/jcastrolicita"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
