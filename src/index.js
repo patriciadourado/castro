@@ -6,9 +6,10 @@ import Reset from "./styles/Reset";
 import HeaderOpen from './components/Header';
 import Trailer from './pages/Trailer';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Informations from './pages/Informations';
-import Contact from './pages/Contact';
+import Documents from './pages/Documents';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
     <About />
     <Services />
     <Informations />
+    <Documents />
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')

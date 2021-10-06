@@ -50,6 +50,10 @@ function Contact(){
     
     if(message && email && validMail() && subject && nome){
       alert('Email Enviado com Sucesso!');
+      // setNome('');
+      // setEmail('');
+      // setSubject('');
+      // setMessage('');
     }
     else
       e.preventDefault();
@@ -72,8 +76,8 @@ function Contact(){
   }
 
   return(
-    <>  
-      <ContactIntro id='contact'>
+    <div id='contact'>  
+      <ContactIntro>
         <Intro>
           <ContactTitle>Contato</ContactTitle>
           <ContactP>Fale conosco, peça um orçamento e solicite uma proposta.</ContactP>
@@ -145,7 +149,7 @@ function Contact(){
         </ContactWrapper>
       </ContactContainer>
       <Footer />
-    </>
+    </div>
   );
 }
 
