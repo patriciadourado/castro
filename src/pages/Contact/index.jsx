@@ -8,7 +8,8 @@ import { faEnvelope, faMapMarker, faPaperPlane, faPhone } from '@fortawesome/fre
 import {
   faInstagram,
   faFacebook,
-  faWhatsapp
+  faWhatsapp,
+  faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 
 function Contact(){
@@ -119,20 +120,11 @@ function Contact(){
             <FooterSocial>
               <FooterItem>
                 <LinkCastro
-                  href="https://jcastro.adv.br"
+                  href="https://www.facebook.com/people/JCastro-Consultoria/100071176555785/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon className='fab fa-facebook' icon={faFacebook}/>
-                </LinkCastro>
-              </FooterItem>
-              <FooterItem>
-                <LinkCastro
-                  href="https://instagram.com/jcastrolicita"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon className='fab fa-instagram' icon={faInstagram}/>
                 </LinkCastro>
               </FooterItem>
               <FooterItem>
@@ -142,6 +134,24 @@ function Contact(){
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon className='fab fa-whatsapp' icon={faWhatsapp}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
+                  href="https://instagram.com/jcastrolicita/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-instagram' icon={faInstagram}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
+                  href="https://twitter.com/jcastrolicita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-twitter' icon={faTwitter}/>
                 </LinkCastro>
               </FooterItem>
             </FooterSocial>
