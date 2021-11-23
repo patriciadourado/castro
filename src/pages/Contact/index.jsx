@@ -9,7 +9,8 @@ import {
   faInstagram,
   faFacebook,
   faWhatsapp,
-  faTwitter
+  faTwitter,
+  faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
 
 function Contact(){
@@ -120,15 +121,6 @@ function Contact(){
             <FooterSocial>
               <FooterItem>
                 <LinkCastro
-                  href="https://www.facebook.com/people/JCastro-Consultoria/100071176555785/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon className='fab fa-facebook' icon={faFacebook}/>
-                </LinkCastro>
-              </FooterItem>
-              <FooterItem>
-                <LinkCastro
                   href="https://whats.link/7199107423"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -138,11 +130,29 @@ function Contact(){
               </FooterItem>
               <FooterItem>
                 <LinkCastro
+                  href="https://www.linkedin.com/company/jcastrolicita"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-linkedin' icon={faLinkedinIn}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
                   href="https://instagram.com/jcastrolicita/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon className='fab fa-instagram' icon={faInstagram}/>
+                </LinkCastro>
+              </FooterItem>
+              <FooterItem>
+                <LinkCastro
+                  href="https://www.facebook.com/people/JCastro-Consultoria/100071176555785/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon className='fab fa-facebook' icon={faFacebook}/>
                 </LinkCastro>
               </FooterItem>
               <FooterItem>
