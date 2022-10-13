@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ContactContainer = styled.section`
   background: var(--color-contact);
-	padding-top: 50rem;
-	padding-bottom: 70rem;
+	padding-top: 21rem;
+	padding-bottom: 90rem;
   display: flex;
   justify-content: space-between;
   
@@ -15,7 +15,7 @@ export const ContactContainer = styled.section`
 
 export const ContactWrapper = styled.div`
   background: var(--color-contact);
-  width: 49%;
+  width: 98%;
   float: right;
   border-radius: 5px;
   align-items: center;
@@ -108,7 +108,7 @@ export const ContactP = styled.p`
 
 export const ContactInfo = styled.div`
   display: flex;
-  margin: 100rem auto 0;
+  margin: 90rem auto 0;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
